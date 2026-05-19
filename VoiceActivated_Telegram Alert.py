@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Milestone 5A++ (ESP32-CAM Version)
-----------------------------------
-• Reads MJPEG stream from ESP32-CAM
-• Speaks 3× per detected person (5-sec gaps)
-• Sends Telegram alerts + saves snapshots
-"""
 
 import os, csv, time, cv2, requests, threading, random
 from datetime import datetime
